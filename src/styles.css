@@ -1,1 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  background-color: #1C1C1C;
+  color: white;
+}
+
+hr {
+  background-color: gray;
+}
+
+
+
+/* Responsive Styles*/
+
+/* Very Small devices (landscape phones, 576px and up) */
+@media (min-width: 100px) {
+
+
+  .card-title {
+    min-height: 46px;
+    text-align: center;
+  }
+
+  .card-img-top {
+    min-height: 100px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .card-title {
+    min-height: 46px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .card-img-top {
+    min-height: 100px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .card-title {
+    min-height: 46px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .card-img-top {
+    min-height: 128px;
+  }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .card-title {
+    min-height: 46px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .card-img-top {
+    min-height: 155px;
+  }
+
+}
